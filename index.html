@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Javascript</h1>
+        <form class="form" id="formNama">
+            <input type="text" id="inputNama" placeholder="Masukkan nama" required />
+            <button type="submit">Submit</button>
+        </form>
+            <p id="ucapan"></p>
+    </div>
+
+<div class="calculator">
+    <h1>Simple Calculator</h1>
+    <div class="display" id="display">0</div>
+    <div class="inputs">
+        <input type="number" id="input1" placeholder="Angka 1">
+        <input type="number" id="input2" placeholder="Angka 2">
+    </div>
+    <div class="buttons">
+        <button class="operator" data-op="add">+</button>
+        <button class="operator" data-op="subtract">-</button>
+        <button class="operator" data-op="multiply">x</button>
+        <button class="operator" data-op="divide">÷</button>
+
+        <button class="operator" data-op="power">^</button>
+        <button class="operator" data-op="modulo">%</button>
+        <button class="operator" data-op="sqrt">√</button>
+        <button id="clear">C</button>
+
+        <button class="advanced" data-op="log">log</button>
+        <button class="advanced" data-op="ln">ln</button>
+        <button class="advanced" data-op="sin">sin</button>
+        <button class="advanced" data-op="cos">cos</button>
+
+        <button class="advanced" data-op="tan">tan</button>
+        <button class="advanced" data-op="factorial">!</button>
+        <button id="equals" style="grid-column: span 2;">=</button>
+    </div>
+    <div class="history" id="history"></div>
+    <div class="footer">Designed in Dark Fantasy Theme</div>
+</div>
+
+</body>
+<script src="script2.js"></script>
+</html>
